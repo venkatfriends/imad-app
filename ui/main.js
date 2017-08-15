@@ -51,7 +51,7 @@ submit.onclick = function(){
     }
     
     //Make the request
-   request.open('GET','http://venkatfriends.imad.hasura-app.io/counter', true);
+   request.open('GET','http://venkatfriends.imad.hasura-app.io/submit-name?name=', true);
    request.send(null); 
     
     
